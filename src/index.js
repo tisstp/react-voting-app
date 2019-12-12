@@ -11,7 +11,7 @@ let store = createStore(myApp);
 
 function render() {
   ReactDOM.render(
-    <App />,
+    <App store={store} />,
     document.getElementById('root')
   );
 }
