@@ -1,3 +1,10 @@
+# Example Redux with React
+
+## Refers
+- [Learn Redux — Introduction To State Management With React by Sebastian Eschweiler](https://medium.com/codingthesmartway-com-blog/learn-redux-introduction-to-state-management-with-react-b87bc570b12a)
+- https://youtu.be/SGOFxK-28ns
+---
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
