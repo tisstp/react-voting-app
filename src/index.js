@@ -5,13 +5,18 @@ import { createStore } from 'redux';
 import App from './App';
 import myApp from './reducers';
 import * as serviceWorker from './serviceWorker';
+import Results from './components/results';
 
 
 let store = createStore(myApp);
 
 function render() {
   ReactDOM.render(
-    <App store={store} />,
+    <div className="container">
+      <App store={store} />
+      <hr/>
+      <Results store={store} />
+    </div>,
     document.getElementById('root')
   );
 }

@@ -14,12 +14,12 @@ export default (state = initialState, action) => {
     case 'VOTE_REACT' :
       console.log('Vote React!');
       return Object.assign({}, state, {
-        angular: state.react + 1
+        react: state.react + 1
       });
     case 'VOTE_VUEJS' :
       console.log('Vote Vue.js!');
       return Object.assign({}, state, {
-        angular: state.vuejs + 1
+        vuejs: state.vuejs + 1
       });
     default:
       return state;
